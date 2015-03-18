@@ -52,6 +52,6 @@ module.exports.bootstrap = function(cb) {
 
   };
 
-  Bar.create(bars).exec(afterBar);
+  Location.create(bars).exec(afterBar);
 
 };
